@@ -9,9 +9,9 @@ function HtmlRoutes(){
     return(
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Main/>} />
-                <Route path="login" element={<Login />} />
-                <Route path="administrar" element = {<Administrar />} />
+                <Route path="test.github.io//" element={<Main/>} />
+                <Route path="test.github.io/login" element={<Login />} />
+                <Route path="test.github.io/administrar" element = {<Administrar />} />
             </Routes>
         </BrowserRouter>
     );
